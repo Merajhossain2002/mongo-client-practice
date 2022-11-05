@@ -29,6 +29,7 @@ const Home = () => {
   return (
     <div>
       <h1>user: {displayUser.length}</h1>
+      <Link to={"/user"}><button>Add User</button></Link>
       {displayUser.map((clients) => (
         <div
           style={{ border: "2px solid red", margin: "10px", padding: "10px" }}
